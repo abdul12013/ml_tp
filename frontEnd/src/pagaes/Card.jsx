@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../Context/ShopContext'
 import Title from '../Components/Title'
 import { assets } from '../assets/assets'
-import CardTotal from '../Components/cardTotal'
+import CardTotal from '../Components/cardTotal.jsx'
 
 
 const Card = () => {

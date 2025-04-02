@@ -12,6 +12,7 @@ import Orders from './pagaes/Orders'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import SearchBar from './Components/SearchBar'
+import Recomended from './pagaes/Recomended'
 
 
 import { ToastContainer, toast } from 'react-toastify';
@@ -33,6 +34,7 @@ const App = () => {
      <Route path='/placeorder' element={<Placeorder/>}/>
      <Route path='/orders' element={<Orders/>}/>
      <Route path='/verify' element={<Verify/>}/>
+     <Route path='/recomended' element={<Recomended/>}/>
     </Routes> 
     <Footer/>
     </div>
